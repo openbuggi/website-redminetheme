@@ -1,0 +1,196 @@
+@import url(../../../stylesheets/application.css);
+
+body{
+  background: url(../images/background.png) top left repeat-x; 
+  font-family: Cantarell, 'Droid Sans', Ubuntu, 'DejaVu Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+hr.shadow
+{
+  background: url(../images/backgroundHR.png) top center  no-repeat;
+  width: 100%;
+  height: 15px;
+  clear:both;
+  margin: 14px 0;
+}
+
+#wrapper, #footer div.bgl, div.wrap
+{
+  min-width: 900px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#top-menu {
+  background: #fff;
+  width: 100%;
+  height: 20px;
+  font-size: 80%;  padding-top: 3px;  
+  position: absolute;
+  top: 0;
+}
+
+
+#header
+{
+   position: static;
+   margin-top: 30px;
+   background: none;
+}
+
+#logo
+{
+ background: url(../images/siteLogoGrid.png) left center no-repeat;
+ float: left;
+ height: 69px;
+ width: 230px;
+ margin: 0;
+ text-align: left;
+}
+
+/* Footer Styles */
+#footerShadow
+{
+ width: 100%;
+ margin:0;
+ padding:0;
+ height: 27px;
+ background: url(../images/footerShadow.png) bottom center no-repeat #fff;
+}
+
+#footer
+{
+  width: 100%;
+  min-height: 250px;
+ background:  url(../images/footer.png) top left repeat-x;
+ clear: both;
+}
+
+
+#copyright span.creativeCommons
+{
+font-size:12px;  
+}
+
+#supplementary, #supplementary a, #copyright a
+{
+ color: #ccc; 
+}
+#copyright a
+{
+ text-decoration: underline; 
+}
+
+
+/* Overrides */
+#wrapper, #wrapper2, #main, #content
+{
+  	background: none;
+}
+
+/* Main Menu */
+#main-menu { 
+ position: static;
+ float: right;
+ height: 59px;
+ margin-right: 0;
+ background: url(../images/navbarRight.png) top right no-repeat;
+}
+
+#main-menu div.wrap
+{
+  height: 59px;
+   margin-right: 18px;
+   background: url(../images/navbarLeft.png) top left no-repeat;
+   list-style:none;
+   display: block;
+   line-height: 38px;
+   padding: 7px 0 0 12px;
+}
+
+#main-menu ul, #searchbox
+{
+  float: left;
+}
+
+
+#main-menu li a.selected, #main-menu li:hover a.selected
+{
+  color: #c26b00;
+  background: url(../images/navbarActive.png)  bottom left repeat-x;
+}
+
+#main-menu li:hover > a,
+#main-menuul ul :hover > a,
+#main-menu a:focus {
+	background: url(../images/navbarHover.png) bottom left repeat-x;
+}
+
+
+#quick-search
+{
+ margin-top: 5px;
+ margin-right: 0px;
+}
+
+#quick-search input
+{
+  border: none;
+  padding: 7px;
+  font-size: 1.2em;
+  background: #333;
+  color: #eee;
+}
+
+html > body #content
+{
+ min-height: 400px; 
+}
+
+#footer .bgl
+{
+ padding: 1.625em 7.6%;
+ text-align: left;
+}
+
+#content .tabs
+{
+ border-bottom: 1px solid #DDD; 
+}
+
+#top-menu a { color: #555; font-weight: bold; }
+#header h1 { margin-left: 6px; }
+#quick-search { margin-right: 6px; }
+#main-menu li { margin: 0; padding: 0; list-style:none; float: left; display: block }
+#main-menu li a { padding: 2px 10px 6px 10px;}
+#main-menu li a:hover { color: #ffffff; }
+#main-menu li a.selected, #main-menu li a.selected:hover {  color: #ffffff; }
+
+#footer { background-color: #578bb8; border: 0; color: #fff;}
+#footer a { color: #fff; font-weight: bold; }
+
+#main a { font-weight: bold; color: #467aa7;}
+#main a:hover { color: #2a5a8a; text-decoration: underline; }
+
+#content .tabs ul { bottom:-1px; }
+
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; color:#606060; font-family: Trebuchet MS,Georgia,"Times New Roman",serif; }
+h2, .wiki h1 { letter-spacing:-1px; }
+h4 { border-bottom: dotted 1px #c0c0c0; }
+
+#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help { 
+    background-position: 0% 40%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+#top-menu a.home { background-image: url(../images/home.png); }
+#top-menu a.my-page { background-image: url(../../../images/user.png); }
+#top-menu a.projects { background-image: url(../../../images/projects.png); }
+#top-menu a.administration { background-image: url(../images/wrench.png); }
+#top-menu a.help { background-image: url(../../../images/help.png); }
